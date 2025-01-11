@@ -1,4 +1,66 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Shared styles */
+section {
+  margin: 20px 192px;
+  font-family: Fira Sans;
+}
+.primary-btn {
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  border-radius: 8px;
+  border: none;
+  text-align: center;
+}
+/* Banner style */
+.banner-content {
+  margin-top: 44px;
+  /* margin-right: 76 px; */
+}
+.banner {
+  padding: 96px 72px;
+  background: rgb(198, 228, 214);
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-title {
+  color: rgba(14, 14, 14, 0.5);
+  font-family: Fira Sans;
+  font-size: 28.8px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 19px;
+}
+.banner-description {
+  width: 680px;
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 67px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 28px;
+}
+.banner-btn {
+  background: rgb(0, 106, 80);
+  width: 324px;
+  height: 67px;
+}
+.hero-pic img {
+  width: 560px;
+  height: 430px;
 }
