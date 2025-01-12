@@ -272,3 +272,53 @@ section {
   width: 151px;
   height: 56px;
 }
+
+/* Newsletter style */
+.newsletter {
+  padding: 80px 0px;
+  border-radius: 24px;
+  height: 290px;
+  background: rgb(198, 228, 214);
+}
+
+.nl-title {
+  text-align: center;
+}
+.nl-subtitle {
+  padding: 0px 365px;
+  text-align: center;
+}
+.newsletter input {
+  padding-left: 40px;
+  margin-left: 310px;
+  width: 720px;
+  height: 55px;
+  border: none;
+  border-radius: 8px 0px 0px 8px;
+  background: rgb(255, 255, 255);
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+}
+.nl-btn {
+  border-radius: 0px 8px 8px 0px;
+  background: rgb(0, 106, 80);
+  width: 150px;
+  height: 56px;
+}
+.nl-mail-subscribe {
+  display: flex;
+  margin-bottom: 25px;
+}
+.nl-no-spam {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+}
