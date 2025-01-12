@@ -3,7 +3,11 @@
   padding: 0px;
 }
 /* font-family */
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.fira-sans-regular {
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 /* Shared styles */
 body {
@@ -11,7 +15,6 @@ body {
 }
 section {
   margin: 60px 192px;
-  font-family: Fira Sans;
 }
 .primary-btn {
   color: rgb(255, 255, 255);
@@ -212,4 +215,60 @@ section {
 }
 .content1 {
   margin-bottom: 24px;
+}
+
+/* Donate Today style */
+.dt-title {
+  text-align: center;
+}
+.dt-subtitle {
+  padding: 0px 90px;
+  text-align: center;
+}
+.dt-amounts {
+  margin: 32px 0px 32px 125px;
+  display: flex;
+  gap: 30px;
+}
+.dt-amount {
+  padding-top: 54px;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 296px;
+  height: 155px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  text-align: center;
+}
+.dt-amount200 {
+  background: rgb(198, 228, 214);
+}
+.donate-today input {
+  margin-bottom: 32px;
+  margin-left: 149px;
+  width: 1238.8px;
+  height: 76px;
+  border: none;
+  box-sizing: border-box;
+  background: rgb(255, 255, 255);
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.dt-btn {
+  margin: 0px 692px;
+  background-color: rgb(0, 106, 80);
+  width: 151px;
+  height: 56px;
 }
